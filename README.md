@@ -1,10 +1,14 @@
 # Named Entity Recognition - API
 
+This is simple Flask API for named entity extraction using Spacy.
+
+
 ## Requirements
 - Flask
 - Spacy
 
 ## Install libraries
+
 ```shell
 pipenv install
 pipenv shell
@@ -26,7 +30,7 @@ curl -d "text=<TEXT HERE>" -X POST http://localhost:5000/api/v1/resources/ner-an
 
 ## Spacy labels
 
-For more information please go to space documentation [page](https://spacy.io/api/annotation#named-entities)
+For more information please go to  the Spacy documentation [page](https://spacy.io/api/annotation#named-entities)
 
 | PERSON      | People, including fictional.                         |
 |-------------|------------------------------------------------------|
