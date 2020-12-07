@@ -32,8 +32,9 @@ curl -d "text=<TEXT HERE>" -X POST http://localhost:5000/api/v1/resources/ner-an
 
 For more information please go to  the Spacy documentation [page](https://spacy.io/api/annotation#named-entities)
 
-| PERSON      | People, including fictional.                         |
+| Label       | Description					                         |
 |-------------|------------------------------------------------------|
+| PERSON      | People, including fictional.                         |
 | NORP        | Nationalities or religious or political groups.      |
 | FAC         | Buildings, airports, highways, bridges, etc.         |
 | ORG         | Companies, agencies, institutions, etc.              |
