@@ -26,7 +26,7 @@ curl -d "text=<TEXT HERE>" -X POST http://localhost:5000/api/v1/resources/ner-an
 
 ## Spacy labels
 
-For more information please go to space documentation page https://spacy.io/api/annotation#named-entities
+For more information please go to space documentation [page](https://spacy.io/api/annotation#named-entities)
 
 | PERSON      | People, including fictional.                         |
 |-------------|------------------------------------------------------|
@@ -47,3 +47,5 @@ For more information please go to space documentation page https://spacy.io/api/
 | QUANTITY    | Measurements, as of weight or distance.              |
 | ORDINAL     | “first”, “second”, etc.                              |
 | CARDINAL    | Numerals that do not fall under another type.        |
+
+#### Author: Jimmy Vila
