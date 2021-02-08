@@ -28,6 +28,16 @@ Replace the <Text HERE> with some text to test the endpoint.
 curl -d "text=<TEXT HERE>" -X POST http://localhost:5000/api/v1/resources/ner-analyse
 ```
 
+## Use Streamlit to test spacy 
+
+You want maybe save some time and test spacy asap. Streamlit allows developers to test the performance of a model by using a nice user interface. You should try it. It's great!
+
+```shell
+streamlit run app.py
+```
+
+
+
 ## Spacy labels
 
 For more information please go to  the Spacy documentation [page](https://spacy.io/api/annotation#named-entities)
@@ -52,5 +62,9 @@ For more information please go to  the Spacy documentation [page](https://spacy.
 | QUANTITY    | Measurements, as of weight or distance.              |
 | ORDINAL     | “first”, “second”, etc.                              |
 | CARDINAL    | Numerals that do not fall under another type.        |
+
+
+
+
 
 #### Author: Jimmy Vila
